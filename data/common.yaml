@@ -1,0 +1,8 @@
+---
+hiera5rspec::message1: "This message came from the module layer"
+hiera5rspec::message2: "This message also came from the module layer"
+
+# For module-layer Hiera 5, all values have to be namespaced to the module.
+# This is to prevent values from seperate modules from clashing.
+# Hiera 5 will basically ignore this value.
+message3: "This is invalid and will never load"

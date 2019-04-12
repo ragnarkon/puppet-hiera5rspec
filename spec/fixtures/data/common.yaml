@@ -1,0 +1,4 @@
+---
+hiera5rspec::message1: "This message came from the global layer"
+hiera5rspec::message2: "This message also came from the global layer"
+message3: "This message is valid and will load"
